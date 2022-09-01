@@ -74,7 +74,7 @@ def login():
 def recover():
     email = window.emailEs.text()
     
-    fromAdress = 'docafavarato@gmail.com'
+    fromAdress = 'youradress@gmail.com'
     toAdress = email
     message = MIMEMultipart('Teste')
     message['Subject'] = 'Recuperação de dados'
@@ -93,7 +93,7 @@ Senha: {recover[1]}''')
     mail = smtplib.SMTP('smtp.gmail.com', 587)
     mail.ehlo()
     mail.starttls()
-    mail.login(fromAdress, 'DocaPedro11!')
+    mail.login(fromAdress, 'yourpassword')
     mail.sendmail(fromAdress, toAdress, message.as_string())
     mail.close()
     
