@@ -1,10 +1,10 @@
 # Login
 
 ## About
-> A basic login system made with PyQt5 e SQL
+> A basic login system made with PyQt5 and SQL.
 
 ## Functions
-> Sign up of the users in a SQL database
+> Can register the users in a SQL database
 
 > Password recover system
 
